@@ -8,6 +8,6 @@ permalink: /
 
 The days, as the go by:
 
-- [Day 1](/2015/day-01.html)
+- [Day 1](./2015/day-one/)
 
 [WeCamp]: http://weca.mp/

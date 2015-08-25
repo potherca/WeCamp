@@ -1,3 +1,6 @@
+---
+permalink: /2015/day-one/
+---
 # Day One
 
 ## Introduction
