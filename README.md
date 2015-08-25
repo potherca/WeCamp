@@ -2,10 +2,12 @@
 permalink: /
 ---
 
-# [WeCamp 2015] Team "Team" Diary
+# [WeCamp] Diary
+
+## 2015 - Team "Team"
 
 The days, as the go by:
 
-- [Day 1](day-01.html)
+- [Day 1](/2015/day-01.html)
 
-[WeCamp 2015]: http://weca.mp/2015/
+[WeCamp]: http://weca.mp/
