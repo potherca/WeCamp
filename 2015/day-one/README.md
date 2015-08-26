@@ -1,5 +1,7 @@
 ---
 permalink: /2015/day-one/
+layout: default
+title: Day Two
 ---
 # Day One
 
@@ -27,7 +29,7 @@ think of an exact use-case at a later time.
 <sup>1</sup>: Top section of the board  
 <sup>2</sup>: Middle section of the board
 
-![First photo of the whiteboard](./day-01-whiteboard-01.jpg "First photo of the whiteboard")
+![First photo of the whiteboard](./whiteboard-01.jpg "First photo of the whiteboard")
 
 At this point we did a short (23 minute) timeboxed research round, digging up
 resources and checking out tutorials.
@@ -45,7 +47,7 @@ Proof-of-Concept<sup>5</sup>.
 <sup>4</sup>: Middle section of the board  
 <sup>5</sup>: Bottom section of the board
 
-![Second photo of the whiteboard](./day-01-whiteboard-02.jpg "Second photo of the whiteboard")
+![Second photo of the whiteboard](./whiteboard-02.jpg "Second photo of the whiteboard")
 
 
 ## Creating a proof of concept
