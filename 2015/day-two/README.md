@@ -8,8 +8,8 @@ title: Day Two
 
 ## Introduction
 
-After sleeping quite well, day two arrived. After having breakfast and a daily
-"all hands on deck" standup, we got to work. The first thing was create a desk
+After sleeping quite well, day two arived. After having breakfast and a daily
+"all hands on deck" standup, we got to work. The first thing I did, was create a desk
 to stand at. I even [gained some XP](https://twitter.com/shochdoerfer/status/636475360855654400)
 for it.
 
@@ -17,7 +17,7 @@ for it.
 
 ## A storm of brains
 
-The day before we reached the "rethink" stage, so we set to brainstroming,
+The day before, we reached the "rethink" stage. So we set to brainstroming,
 again.
 
 During this phase [I made some drawings](https://twitter.com/Richard_Tuin/status/636480721612341248/)
@@ -27,21 +27,21 @@ been made available to me (yet).
 _(... drawings go here ...)_
 
 During the design session I mentioned a technique from Alistair Cockburns book
-_Writing effective use case_
+_Writing effective use cases_
 
 ![Separate levels of ideation](https://pjhobday.files.wordpress.com/2010/05/uc-goals.jpg "Separate levels of ideation")
 
-It basically outlines how people need to be aware of the level they are one when
-discussion any topic. It also tries to help developers avoid diving into detail
-too much (or too soon).
+It basically outlines how people need to be more aware of the level they are on
+when discussion any topic. It also tries to help developers avoid diving into 
+detail too much (or too soon).
 
-With this in mind, after having talked out way through the minefield otherwise
-known as "apllication architecture" we came up with what (and partly how) we
+With this in mind, after having talked our way through the minefield otherwise
+known as "aplication architecture" we came up with what (and partly how) we
 needed to build.
 
 ![Third photo of the whiteboard](./day-02-whiteboard-01.jpg "Third photo of the whiteboard")
 
-At this point we decided to postpone building things to after a break, which
+At this point we decided to postpone building things until after a break, which
 involved a (mostly wasp free) lunch.
 
 ## Doing a rain dance
@@ -50,15 +50,18 @@ After the break we went to find a new location to actually write code. In part
 this was to have a change of scenery and in part to have a difference in spaces
 in which we either design or program.
 
-Dispite the news that rain might be forthcoming we decided to sit outside and
-code there. Worst case scenario we would have to work a bit harder to get things
+Despite the news that rain might be forthcoming we decided to sit outside and
+code there. Worst case scenario, we would have to work a bit harder to get things
 done before the rain came.
 
 While [Jerry] started working on the Bot part, [Mitchel] and I started on the
-Arduino part.
+[Arduino] part.
 
 We connected the piezo speaker to the Arduino, ran the "play a sound" example,
 ran the "connect through HTTP" example and ran the aRest Ethernet example.
+
+- The [aRest Ethernet example](https://raw.githubusercontent.com/marcoschwartz/aREST/master/examples/Ethernet/Ethernet.ino)
+- The [breadboard layout sheet](http://ardx.org/src/circ/CIRC01-sheet-OOML.pdf) and [manual page](http://www.oomlout.com/oom.php/products/ardx/circ-06) for the speaker
 
 Some of the things that formed our learning experience were how the
 save/compile/upload mechanism works. Another thing that made it a lot more
@@ -78,44 +81,28 @@ have the Arduino play a sound through the REST API.
 
 The sound was triggered but the melody got cut off half way through and after
 that new versions would no longer upload. Unplugging and re-trying (or uploading
-another sketch) gave mixed result but all in all... Nothing worked.
+another sketch) gave mixed result but all in all... Nothing really worked.
 
-After some searching, poking around, and F5 driven debugging the problem became
+After some searching, poking around and F5 driven debugging, the problem became
 more apparent. As the aRest example we used was meant to trigger a light it had
-a line utilizing the watchdog timer.
+a line utilizing the [watchdog timer](http://www.practicalarduino.com/pics/wdt-block-diagram-small.jpg).
 
     // Start watchdog
     wdt_enable(WDTO_4S);
 
-In some what this was messing with the timing involved in the playing of the
+In some way, this was messing with the timing involved in the playing of the
 sound and the uploading of the code. This lead to several possible solutions
-that could be implementated at a leter time.
+that could be implementated at a later time.
 
 ## Breaking things up
 
-After this the threat of rain seemed to become more prominent so we broke up the
+After this, the threat of rain seemed to become more prominent so we broke up the
 outside effort.
 
-After moving inside [Jerry] continued working on his ned of things, I did some
-more researching on the watchdog ...and then was dinner. Which was excellent.
-_@TODO: Add more [expletives](https://www.google.co.uk/search?q=expletive) to
-describe how tasty diner was_
-
-
-<sup>1</sup>: Top section of the board  
-<sup>2</sup>: Middle section of the board
-
-
-<sup>3</sup>: Top section of the board  
-<sup>4</sup>: Middle section of the board  
-<sup>5</sup>: Bottom section of the board
-
-
-
-The aRest arduino example: https://raw.githubusercontent.com/marcoschwartz/aREST/master/examples/Ethernet/Ethernet.ino
-The breadboard layoutsheet: http://ardx.org/src/circ/CIRC01-sheet-OOML.pdf
-The manual page: http://www.oomlout.com/oom.php/products/ardx/circ-06
-
+After moving inside [Jerry] continued working on his end of things, I did some
+more researching on the watchdog ...and then there was dinner. Which was 
+excellent. _@TODO: Add more [expletives](https://www.google.co.uk/search?q=expletive) 
+to describe how tasty diner was_
 
 [Mitchel]: https://twitter.com/MVerschoof
 [Jerry]: https://twitter.com/getfocusnl
