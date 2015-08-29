@@ -1,7 +1,7 @@
 ---
 permalink: /2015/day-one/
 layout: default
-title: Day Two
+title: Day One
 ---
 # Day One
 
