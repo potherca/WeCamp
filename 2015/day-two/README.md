@@ -13,7 +13,7 @@ After sleeping quite well, day two arived. After having breakfast and a daily
 to stand at. I even [gained some XP](https://twitter.com/shochdoerfer/status/636475360855654400)
 for it.
 
-![My standing desk](./day-02-standing-desk-01.jpg "My standing desk")
+![My standing desk](./standing-desk-01.jpg "My standing desk")
 
 ## A storm of brains
 
@@ -21,10 +21,9 @@ The day before, we reached the "rethink" stage. So we set to brainstroming,
 again.
 
 During this phase [I made some drawings](https://twitter.com/Richard_Tuin/status/636480721612341248/)
-to help visualize our plans and design. Pictures were taken but they have not
-been made available to me (yet).
+to help visualize our plans and design.
 
-_(... drawings go here ...)_
+![architecture sketch](./architecture-sketch.jpg "architecture sketch")
 
 During the design session I mentioned a technique from Alistair Cockburns book
 _Writing effective use cases_
@@ -32,14 +31,14 @@ _Writing effective use cases_
 ![Separate levels of ideation](https://pjhobday.files.wordpress.com/2010/05/uc-goals.jpg "Separate levels of ideation")
 
 It basically outlines how people need to be more aware of the level they are on
-when discussion any topic. It also tries to help developers avoid diving into 
+when discussion any topic. It also tries to help developers avoid diving into
 detail too much (or too soon).
 
 With this in mind, after having talked our way through the minefield otherwise
 known as "aplication architecture" we came up with what (and partly how) we
 needed to build.
 
-![Third photo of the whiteboard](./day-02-whiteboard-01.jpg "Third photo of the whiteboard")
+![Third photo of the whiteboard](./whiteboard-03.jpg "Third photo of the whiteboard")
 
 At this point we decided to postpone building things until after a break, which
 involved a (mostly wasp free) lunch.
@@ -100,8 +99,8 @@ After this, the threat of rain seemed to become more prominent so we broke up th
 outside effort.
 
 After moving inside [Jerry] continued working on his end of things, I did some
-more researching on the watchdog ...and then there was dinner. Which was 
-excellent. _@TODO: Add more [expletives](https://www.google.co.uk/search?q=expletive) 
+more researching on the watchdog ...and then there was dinner. Which was
+excellent. _@TODO: Add more [expletives](https://www.google.co.uk/search?q=expletive)
 to describe how tasty diner was_
 
 [Mitchel]: https://twitter.com/MVerschoof
