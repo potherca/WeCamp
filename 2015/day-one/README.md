@@ -5,6 +5,8 @@ title: Day One
 ---
 # Day One
 
+<small>Tuesday, August 25th 2015</small>
+
 ## Introduction
 
 Documenting things as they happen always feels like a good plan.

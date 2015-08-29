@@ -6,6 +6,8 @@ title: Day Two
 
 # Day Two
 
+<small>Wednesday, August 26th 2015</small>
+
 ## Introduction
 
 After sleeping quite well, day two arived. After having breakfast and a daily
