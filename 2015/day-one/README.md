@@ -4,7 +4,6 @@ layout: default
 title: Day One
 ---
 # Day One
-
 <small>Tuesday, August 25th 2015</small>
 
 ## Introduction
