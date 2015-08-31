@@ -30,11 +30,11 @@ pair-programming our way through my last-night code, we headed to the yurt.
 
 We were on a tight schedule, as Friday held organized fun in the form of a
 survival game (sponsored by [Pragmatist]) followed up by a barbecue (sponsored
-by [Enrise]). Because of this, we focussed fully on Integrating our separate
+by [Enrise]). Because of this, we focussed fully on integrating our separate
 components. After some minor edits we managed to get a [completely working
 integration][MVP Tweet] minutes before heading out to lunch.
 
-## I know where you Arrrrrrrrrr.
+## I know where you Arrrrrrrrrr!
 
 I shall not get into all of the sword fighting, plank walking, fire-starting, hook
 grappling, canon firing and swearing that went on but I'll divulge the shanty
@@ -48,7 +48,7 @@ the more serious aspects of WeCamp.
 ## Barbecue
 
 After the Pirate Games had finished there was time to drink, socialize and
-barbecue. I had the privilidge of talking to the nice folks from [Studio Bleep],
+barbecue. I had the privilege of talking to the nice folks from [Studio Bleep],
 who took care of creating [avatars for all the coaches].
 
 [![avatars for all the coaches](http://studiobleep.com/wp-content/uploads/2015/07/wecamp2015-1844x660.jpg "avatars for all the coaches")][avatars for all the coaches]
