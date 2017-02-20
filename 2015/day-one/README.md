@@ -83,10 +83,10 @@ In either event we took a short break at this point. Beer may have been involved
 Having realized our basic proof of concept, [Jerry] did some more looking and
 found two libraries that seemed to do exactly what we are interested in:
 
- - https://github.com/amcewen/HttpClient
- - http://arest.io/
+ - [amcewen/HttpClient](https://github.com/amcewen/HttpClient)
+ - [arest.io](http://arest.io/)
 
-This meant that our progress was comming along nicely and we would have to come
+This meant that our progress was coming along nicely and we would have to come
 up with a plan as to what we *actually* want to build. At this point dinner was
 announced so we went to enjoy a rather splendid meal (and desert). And there was
 much rejoicing.
