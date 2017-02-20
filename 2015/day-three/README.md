@@ -52,7 +52,7 @@ After some time of successful coding [Mitchel] ran into another problem. After
 some people jumping in to help, the cause was found to be the fact that the end
 of strings are marked with a NULL character. This meant the counting logic was of-by-one.
 
-While all of this was going on, Jerry] made great headway with his plugin
+While all of this was going on, [Jerry] made great headway with his plugin
 architecture and the plugin to communicate with Slack and I had set up the
 ground work for the plugin that handled comunication with the Arduino.
 
@@ -64,8 +64,8 @@ day before:
 ## Getting out of the cold
 
 The longer the rain lasted, the colder it got in the tent, especially because
-one side was open. The TalkBack team was graceful enough to allow us to share
-their yurd. Supported by our coach, we moved our workstation to their tent.
+one side was open. The [TalkBack] team was graceful enough to allow us to share
+their yurt. Supported by our coach, we moved our workstation to their tent.
 And there was much rejoicing.
 
 ![The team in the yurd](the-team_photo-by-petradreis.jpg "The team in the yurd")
@@ -87,3 +87,4 @@ minimum viable product was to integrate the individual components.
 [Arduino serial console]: https://www.arduino.cc/en/Reference/Serial
 [AVR libc]: http://www.nongnu.org/avr-libc/user-manual/index.html
 [wild goose chase]: https://en.wiktionary.org/wiki/wild-goose_chase
+[TalkBack]: https://github.com/WeCamp/talkback
