@@ -37,7 +37,7 @@ when discussion any topic. It also tries to help developers avoid diving into
 detail too much (or too soon).
 
 With this in mind, after having talked our way through the minefield otherwise
-known as "aplication architecture" we came up with what (and partly how) we
+known as "application architecture" we came up with what (and partly how) we
 needed to build.
 
 ![Third photo of the whiteboard](./whiteboard-03.jpg "Third photo of the whiteboard")
