@@ -24,7 +24,7 @@ use-case we would like to build.
 
 After some deliberation we decided we would like to build an HTTP interface for
 the Arduino, both client and server<sup>2</sup>. We didn't have a specific
-use-case although there was some mention of slack), so we decided we would
+use-case (although there was some mention of slack), so we decided we would
 think of an exact use-case at a later time.
 
 <sup>1</sup>: Top section of the board  
@@ -36,12 +36,13 @@ At this point we did a short (23 minute) timeboxed research round, digging up
 resources and checking out tutorials.
 
 (Some of) our most relevant findings were:
+
 - [An article from Instructables.com ](http://www.instructables.com/id/Control-an-Arduino-with-PHP/?ALLSTEPS), which uses the com-port, which wasn't what we wanted)
 - [Another article from Instructables.com](http://www.instructables.com/id/PART-1-Send-Arduino-data-to-the-Web-PHP-MySQL-D3js/), which looked better
 - [The Arduino Reference manual](https://www.arduino.cc/en/Reference/Ethernet), which has a great webserver and webclient example
 
 We came up with a quick plan of attack<sup>3</sup> and after identifying
-possible risks to our endeavour<sup>4</sup> and set to work, creating a
+possible risks to our endeavour<sup>4</sup> we set to work, creating a
 Proof-of-Concept<sup>5</sup>.
 
 <sup>3</sup>: Top section of the board  
@@ -55,7 +56,7 @@ Proof-of-Concept<sup>5</sup>.
 
 The first thing we had to do was connect all the pieces that make up our Arduino
 set. This was easy enough with the help of the manual it came with. We even got
-an LED to blink!
+a LED to blink!
 
 After that we connected an [Ethernet Shield](https://www.arduino.cc/en/Main/ArduinoEthernetShield)
 and started the Server Example. We ran into a hitch there, as we could not seem
@@ -70,8 +71,8 @@ After that we could make a request and get a response. We stood in amazement at
 the wonders of HTTP for a while before moving on.
 
 I'm not sure if we also ran through the Client example as I got sidetracked by
-a discussion with [Richard] at this point. If the rest of the team did ran
-through it in the time it took for the discussion to take place, it can have
+a discussion with [Richard] at this point. If the rest of the team did run
+through it in the time it took for the discussion to take place, it can't have
 been too hard.
 
 In either event we took a short break at this point. Beer may have been involved.
@@ -79,7 +80,7 @@ In either event we took a short break at this point. Beer may have been involved
 
 ## After the break
 
-Having realized out basic proof of concept, [Jerry] did some more looking and
+Having realized our basic proof of concept, [Jerry] did some more looking and
 found two libraries that seemed to do exactly what we are interested in:
 
  - https://github.com/amcewen/HttpClient
